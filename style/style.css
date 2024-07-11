@@ -167,7 +167,13 @@ font-weight: 800;
 height: 614px;
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px; 
+
 }
+/* .sub-video {
+    width:1060px;
+     height:540px;
+     border: 2px solid black;
+} */
 .video iframe{
     padding:33px 33px ;
     border: 1px solid white;
@@ -209,6 +215,7 @@ font-weight: 700;
 height: 299px;
 padding-top:50px ;
 line-height: 26px;
+ padding:50px;
 }
 .child-2{
     background: rgba(0, 76, 232, 0.05);
@@ -217,6 +224,7 @@ height: 299px;
 padding-top:50px ;
 line-height: 26px;
 /* margin-left: 75px; */
+padding:50px;
 }
 .child-3{
     background: rgba(255, 223, 0, 0.05);
@@ -224,6 +232,7 @@ line-height: 26px;
 height: 299px;
 padding-top:50px ;
 line-height: 26px;
+padding:50px;
 }
 .main{
     width: 1140px;
