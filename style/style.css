@@ -230,6 +230,7 @@ line-height: 26px;
     height: 310px;
     gap: 50px;
     margin-top: 80px;
+    margin-left: 0px;
     border: 1px solid black;
     display: flex;
    
