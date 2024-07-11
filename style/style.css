@@ -254,3 +254,44 @@ line-height: 26px;
     /* border: 1px solid black; */
 }
 /* section corrent target end */
+
+/* section handshak start */
+.handshak{
+    width: 1140px;
+height: 314px;
+border: 1px solid black;
+margin: 100px auto;
+}
+.sub-handshak{
+    width: 1044px;
+    height: 186px;
+border: 1px solid black;
+}
+.child-sub-handshak h2{
+    font-size: 32px;
+font-weight: 700;
+/* color: white; */
+}
+.child-sub-handshak p{
+    font-size: 16px;
+    font-weight: 400;
+/* color: white; */
+}
+input[ type="text"]{
+    width: 548px;
+    height: 56px;
+    font-size: 16px;
+font-weight: 400;
+border-radius:8px;
+/* padding: 15px 25px; */
+}
+input[ type="submit"]{
+    width: 120px;
+    height: 58px;
+    font-size: 20px;
+font-weight: 600;
+border-radius: 8px;
+}
+
+
+/* section handshak end */
