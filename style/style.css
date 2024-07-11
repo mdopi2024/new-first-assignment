@@ -180,9 +180,22 @@ border-radius: 16px;
     font-size: 32px;
     font-weight: 800; 
 }
-.my-corrent-target .text{
-    text-align: center;
+.my-corrent-target .current-text{
+    width: 946px;
     height: 113px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 23px;
+    margin-left: 85px;
+}
+.current-text .crnt-text{
+    font-size: 32px;
+font-weight: 800;
+ 
 
 }
 .ankhor{
@@ -192,7 +205,7 @@ font-weight: 700;
 }
 .child-1{
     background: rgba(255, 76, 30, 0.05);
-    width: 364px;
+    width: 362px;
 height: 299px;
 padding-top:50px ;
 line-height: 26px;
@@ -203,6 +216,7 @@ line-height: 26px;
 height: 299px;
 padding-top:50px ;
 line-height: 26px;
+/* margin-left: 75px; */
 }
 .child-3{
     background: rgba(255, 223, 0, 0.05);
@@ -212,14 +226,23 @@ padding-top:50px ;
 line-height: 26px;
 }
 .main{
-    display: flex;
+    width: 1140px;
+    height: 310px;
     gap: 50px;
     margin-top: 80px;
-    margin-left:715px;
+    border: 1px solid black;
+    display: flex;
+   
 }
 .my-corrent-target{
+    width: 1140px;
+    border: 1px solid black;
     margin-top: 150px;
     background-color: rgb(255, 255, 255);
-   
+    margin: 150px auto;
+    
+}
+.all-p{
+    color: rgb(13, 19, 33);
 }
 /* section corrent target end */
