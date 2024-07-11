@@ -259,23 +259,41 @@ line-height: 26px;
 .handshak{
     width: 1140px;
 height: 314px;
-border: 1px solid black;
+/* border: 1px solid black; */
 margin: 100px auto;
+margin-top: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(../handshake.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.397);
+background-blend-mode: overlay;
+border-radius: 16px;
 }
 .sub-handshak{
     width: 1044px;
     height: 186px;
-border: 1px solid black;
+/* border: 1px solid black; */
+display: flex;
+justify-content: center;
+}
+.child-sub-handshak{
+    width: 730px;
+    text-align: center;
 }
 .child-sub-handshak h2{
     font-size: 32px;
 font-weight: 700;
-/* color: white; */
+color: white;
 }
 .child-sub-handshak p{
     font-size: 16px;
     font-weight: 400;
-/* color: white; */
+color: white;
+ 
 }
 input[ type="text"]{
     width: 548px;
@@ -291,6 +309,7 @@ input[ type="submit"]{
     font-size: 20px;
 font-weight: 600;
 border-radius: 8px;
+margin-left: 20px;
 }
 
 
